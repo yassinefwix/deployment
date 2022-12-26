@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Contact us page</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+    <body>
+        <div class="head-row">
+            <img id="logo" src="images/logo.png" alt="logo">
+            <span id="blogName">My Blog</span>
+        </div>
+
+        <div class="content">
+            <div class="left-menu-container">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li> <a href="aboutus.html">About us</a></li>
+                </ul>
+            </div>
+
+
+            <div class="right-menu-container">
+                 <h1 class="page-title">Contact us</h1>  
+                 <form method="post" action="sendform.php">
+                 <table>
+                    <tr> 
+                        <td>
+                            <label>Email</label>
+                        </td>
+                        
+                        <td>
+                            <input name="email" type="email">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>City</label></td>
+                        <td>
+                            <select name="city" id="">
+                                <option value="Marrakech">Marrakech</option>
+                                <option value="Rabat">Rabat</option>
+                                <option value="Casablanca">Casablanca</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Message</label></td>
+                        <td>
+                            <textarea name="Message" id="" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Envoyer">
+                        </td>
+                    </tr>
+
+
+                 </table>
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+
+
+
+
+</html>

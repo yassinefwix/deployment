@@ -1,0 +1,52 @@
+body {
+    background-color: beige;
+}
+
+#logo {
+    width: 100px;
+    height: 80px;
+    float: left;
+    margin-left: 50px;
+}
+
+#blogName {
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+.head-row {
+    height: 100px;
+}
+
+.content {
+    clear: both;
+    margin-top: 20px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.left-menu-container {
+    border: 1px solid grey;
+    width: 25%;
+    height: 800px;
+    float: left;
+}
+
+.right-menu-container {
+    float: right;
+    border: 1px solid gray;
+    width: 70%;
+    height: 800px;
+    padding:15px ; 
+}
+.page-title{
+    text-align: center;
+}
+
